@@ -3,3 +3,4 @@ pyrogram
 python-dotenv
 tgcrypto
 aiofiles
+uvloop
