@@ -44,7 +44,7 @@ class BUTTON(object):
         InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close')
         ],
-        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/moviesaddars{Var.UPDATES_CHANNEL}')]
+        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/moviesaddars'{Var.UPDATES_CHANNEL}')]
         ]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
@@ -62,6 +62,6 @@ class BUTTON(object):
         InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close'),
         ],
-        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/moviesaddars{Var.UPDATES_CHANNEL}')]
+        [InlineKeyboardButton("📢 Bot Channel", url=f'https://t.me/moviesaddars'{Var.UPDATES_CHANNEL}')]
         ]
     )
